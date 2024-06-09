@@ -1,0 +1,50 @@
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-direction {
+    flex-direction: row;
+}
+
+.flex-justify {
+    justify-content: space-around;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.item-align {
+    align-items: center;
+}
+
+.item {
+    flex: 1;
+    margin: 5px;
+    background: yellowgreen;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+body {
+    font-family: monospace;
+    color: #337;
+}

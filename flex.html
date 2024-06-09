@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+    <h1>display: block (padrão utilizado)</h1>
+    <section class="container">
+        <div class="item">Caixa</div>
+        <div class="item">Quadrado</div>
+        <div class="item">Círculo</div>
+        <div class="item">Retângulo</div>
+        <div class="item">Retângulo</div>
+        <div class="item">Retângulo</div>
+        <div class="item">Retângulo</div>
+    </section>
+
+    <h1>display: Justify-content: justify</h1>
+    <section class="container flex flex-wrap flex-justify">
+        <div class="item">Caixa</div>
+        <div class="item">Quadrado</div>
+        <div class="item">Círculo</div>
+    </section>
+
+    <h1>align-itens: stretch;</h1>
+    <section class="container flex item-align">
+        <div class="item">Carro</div>
+        <div class="item">0 carro está na oficina</div>
+        <div class="item">0 carro está na oficina e fica pronto amanhã</div>
+        <div class="item">0 carro está na garagem</div>
+    </section>
+</body>
+</html>

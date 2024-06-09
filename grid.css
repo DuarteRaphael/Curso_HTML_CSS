@@ -1,0 +1,42 @@
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-columns {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-rows {
+    grid-template-rows: 50px 50px 50px 50px;
+}
+
+.item {
+    margin: 5px;
+    background: goldenrod;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+    color: black;
+}
+
+body {
+    font-family: monospace;
+    color: rgb(32, 31, 33);
+}
